@@ -12,7 +12,7 @@ Original file is located at
 import pandas as pd
 import seaborn as sns
 
-df = pd.read_csv('/content/books_data.csv')
+df = pd.read_csv('books_data.csv')
 
 df.sample(6)
 
